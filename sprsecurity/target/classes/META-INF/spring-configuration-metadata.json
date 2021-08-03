@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "application.jwt",
+      "type": "com.example.sprsecurity.jwt.JwtConfig",
+      "sourceType": "com.example.sprsecurity.jwt.JwtConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "application.jwt.key",
+      "type": "java.lang.String",
+      "sourceType": "com.example.sprsecurity.jwt.JwtConfig"
+    },
+    {
+      "name": "application.jwt.token-expiration-after-days",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.sprsecurity.jwt.JwtConfig"
+    },
+    {
+      "name": "application.jwt.token-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.example.sprsecurity.jwt.JwtConfig"
+    }
+  ],
+  "hints": []
+}
